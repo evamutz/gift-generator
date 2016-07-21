@@ -13,11 +13,10 @@ class ApplicationController < Sinatra::Base
     erb :results
   end
 
+  end
   get '/submit' do
     erb :results
   end
-  
 
-  end
 
 end
