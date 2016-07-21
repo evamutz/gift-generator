@@ -13,10 +13,21 @@ class ApplicationController < Sinatra::Base
     erb :results
   end
 
-  end
-  get '/submit' do
-    erb :results
+  post '/submit' do
+    @occasion = params[:occasion] #birthday ??value??
+    @age = params[:age]
+    @gender = params[:gender]
+    @results = gift_generator(@occasion, @age, @gender)
+    @title = @results[0][0]
+    @image = @results[0][1]
+    @desc = @results[0][2]
+    @price = @results[0][3]
+    erb :testconnect
   end
 
+
+  get '/results' do
+    erb :results
+  end
 
 end

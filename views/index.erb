@@ -18,7 +18,7 @@
     </style>
     <style>
     body {
-      background-image: url("public/images/gifts.jpg");
+      background-image: url("images/gifts.jpg");
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -56,9 +56,9 @@
           <div class="col-md-2">
           </div>
           <div class="col-md-8 content" id="text">
-            <form action="/results" method="post">
+            <form action="/submit" method="post">
             <h3>What occasion are you buying a gift for?</h3>
-              <select class="dropdown-menus form-control" name="Occasion">
+              <select class="dropdown-menus form-control" name="occasion">
                 <option value="occasion">Occasion</option>
                 <option value="birthday">Birthday</option>
                 <option value="christmas">Christmas</option>
@@ -68,7 +68,7 @@
                 <option value="thank_you">Thank You</option>
               </select><br>
             <h3>Age of the recipient?</h3>
-              <select class="dropdown-menus form-control" name="Age">
+              <select class="dropdown-menus form-control" name="age">
                 <option value="age">Age</option>
                 <option value="infant">Infant</option>
                 <option value="toddler">Toddler</option>
@@ -79,7 +79,7 @@
                 <option value="elder">Elder</option>
               </select><br>
             <h3>Boy or Girl? (optional)<h3>
-              <select class="dropdown-menus form-control" name="Gender">
+              <select class="dropdown-menus form-control" name="gender">
                 <option value="gender">Gender</option>
                 <option value="girl">Girl</option>
                 <option value="boy">Boy</option>
