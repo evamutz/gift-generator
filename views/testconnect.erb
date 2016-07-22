@@ -1,0 +1,64 @@
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>eva random test</title>
+  </head>
+  <body>
+    <h1><%=@title%></h1>
+    <img href="<%=@image%>">
+    <h3><%=@desc%></h3>
+    <h3><%=@price%></h3>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Gift Guru</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/style.css" charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center" id="title-box">
+  <h1 id="results">Here are your results!</h1>
+
+  <p>Look below to see your gift options</p>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Gift #1</h3>
+      <a href="<%=@link%>">
+      <img src="<%=@image%>" height="250" width="250" class="img-circle" alt="Gift1"></a>
+      <h4><%=@title%></h4>
+      <p><%=@desc%></p>
+      <p><%=@price%></p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Gift #2</h3>
+      <a href="<%=@link2%>">
+      <img src="<%=@image2%>" height="250" width="250" class="img-circle" alt="Gift2"></a>
+      <h4><%=@title2%></h4>
+      <p><%=@desc2%></p>
+      <p><%=@price2%></p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Gift #3</h3>
+      <a href="<%=@link3%>">
+      <img src="<%=@image3%>" height="250" width="250" class="img-circle" alt="Gift3"></a>
+      <h4><%=@title3%></h4>
+      <p><%=@desc3%></p>
+      <p><%=@price3%></p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
