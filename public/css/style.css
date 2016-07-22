@@ -12,6 +12,14 @@
   opacity: 1;
 }
 
+#results {
+  font-family: selima;
+  font-size: 120px;
+  text-align: center;
+  margin-top: .1em;
+  opacity: 1;
+}
+
 .form-control {
     width: 100%;
     padding: .375rem .75rem;
@@ -45,3 +53,12 @@
     height: 100%;
     vertical-align: middle;
 }
+
+/*.button {
+  background-color: #dcdcdc;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}*/
